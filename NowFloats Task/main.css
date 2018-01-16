@@ -1,0 +1,111 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 0;
+    color: gray;
+}
+
+.navbar {
+    width: 100%;
+    height: 3em;
+    background-color: #FEBA00;
+    text-align: center;
+}
+h2 {
+    padding: 0.4em;
+    margin: 0;
+    color: white;
+}
+
+
+#mainContent {
+    padding-top: 0.105em;
+    max-width: 62.5em;
+    margin: 0 auto;
+}
+#image {
+    width: 100%;
+    box-shadow: 0.625em 0.625em 0.3125em #888888;
+}
+
+#content li {
+    width: 20em;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.25em;
+}
+
+#content {
+    margin-top: 1.5625em;
+    padding: 0;
+}
+#socialNetworks
+ {
+    text-align: center;
+    margin: 1.25em;
+}
+ footer
+ {
+ margin: 0 0;
+ text-align: center;
+ }
+
+#socialNetworks button {
+    width: 21.625em;
+    height: 3.45em;
+    background: #FFB901;
+    border-radius: 0.60em;
+    color: white;
+    margin: 0 0 1.875em 0;
+    cursor: pointer;
+    
+}
+
+
+#socialNetworks button b {
+    font-size: 1.1875em;
+}
+#socialNetworks button b:hover {
+    color: black;
+}
+
+
+footer p {
+    font-size: 0.9375em;
+    padding-left: 8.75em;
+    margin: 0;
+}
+p {
+    margin: 0;
+    font-size: 1.25em;
+}
+a { color: inherit; } 
+
+footer .main-footer {
+    background: #FFB901;
+    padding: 1.02em 0;
+    margin-top: 30px;
+    width: 100%;
+}
+footer .main-footer p
+{
+    color: white;
+    text-align: center;
+}
+/*************************
+Media Queries
+*************************/
+
+@media only screen and (min-width: 400px) and (max-width: 950px) {
+    #content li {
+        display: block;
+        margin: 1.5625em auto;
+        width: 70%;
+    }
+    #content li p {
+        text-align: center;
+    }
+    #socialNetworks {
+        margin: 2.5em;
+    }
+}
